@@ -32,7 +32,7 @@ const ModifyForm = ({ selectedComplaint, onBack }) => {
     facultyName: selectedComplaint.facultyName,
     dateTime: selectedComplaint.dateTime,
     status: selectedComplaint.status,
-    IdCardStatus: selectedComplaint.IdCardStatus,
+    IdCardStatus: selectedComplaint.idCardStatus,
     remark: selectedComplaint.remark,
     modifiedBy: decodedToken.name,
   });
